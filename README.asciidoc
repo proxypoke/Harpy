@@ -1,0 +1,23 @@
+Harpy
+=====
+slowpoke <mail+git@slowpoke.io>
+v0.0
+:encoding: UTF-8
+
+Overview
+--------
+Harpy, the _Handy Abstraction of Redis in PYthon_, as the name
+implies, is an abstraction around the Redis data structures in Python. The
+purpose is to make the usage of Redis (near-)transparent to the developer by
+wrapping Redis' data structure into classes which emulate their native Python
+counterparts by implementing the same interfaces.
+
+The goal is to provide at least the four data structures which Python already
+provides: strings, lists, dictionaries and sets, and be able to use them as
+drop-in replacements with as little overhead as possible.
+
+License
+-------
+
+Harpy is Free Software under the non-terms of the Anti-License. Do whatever the
+fuck you want. See COPYING for details.

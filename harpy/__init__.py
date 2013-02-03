@@ -10,3 +10,8 @@
 #
 # Format options for vim. Please adhere to them.
 # vim: set et ts=4 sw=4 tw=80:
+
+from ._redis import _acquire as acquire
+from ._redis import initialize
+
+from .string import HarpyString as String
